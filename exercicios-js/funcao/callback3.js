@@ -1,2 +1,2 @@
 //Exemplo de callback no browser
-document.getElementsByTagName("")
+document.getElementsByTagName("body")[0]
