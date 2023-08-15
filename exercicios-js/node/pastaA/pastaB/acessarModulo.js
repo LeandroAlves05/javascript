@@ -1,4 +1,4 @@
-const moduloA = require('../../moduloa') // Não vai funcionar no linux (erro de sintaxe)
+const moduloA = require('../../moduloA') // Não vai funcionar no linux (erro de sintaxe)
 console.log(moduloA.ola)
 
 const moduloB = require('../../moduloB') // Vai funcionar em geral
