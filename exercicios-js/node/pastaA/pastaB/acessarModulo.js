@@ -4,7 +4,7 @@ console.log(moduloA.ola)
 const moduloB = require('../../moduloB') // Vai funcionar em geral
 console.log(moduloB.bomDia)
 
-const saudacao = require('saudacao') // Arquivo index.js em node modules
+const saudacao = require('saudacao') // Procura um arquivo index.js em node modules
 console.log(saudacao.ola)
 
 const c = require('./pastaC') // Procura o arquivo index dentro da pasta sozinho
@@ -12,6 +12,6 @@ console.log(c.ola2)
 
 const http = require('http')
 http.createServer((req, res) => {
-    res.write('Bom dia!')
+    res.write("Bom dia!")
     res.end()
 }).listen(8080)
